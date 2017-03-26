@@ -1,7 +1,5 @@
 <?php
-
 return [
-
     // Uncomment the languages that your site supports - or add new ones.
     // These are sorted by the native name, which is the order you might show them in a language selector.
     // Regional languages are sorted by their base language, so "British English" sorts as "English, British"
@@ -210,7 +208,7 @@ return [
         //'az-Cyrl'     => ['name' => 'Azerbaijani (Cyrillic)', 'script' => 'Cyrl', 'native' => 'Азәрбајҹан', 'regional' => 'uz_UZ'],
         //'ab'          => ['name' => 'Abkhazian',              'script' => 'Cyrl', 'native' => 'Аҧсуа', 'regional' => ''],
         //'os'          => ['name' => 'Ossetic',                'script' => 'Cyrl', 'native' => 'Ирон', 'regional' => 'os_RU'],
-        //'ky'          => ['name' => 'Kyrgyz',                 'script' => 'Cyrl', 'native' => 'Кыргыз', 'regional' => 'ky_KG'],
+        //'kg'          => ['name' => 'Kyrgyzstan',                 'script' => 'Cyrl', 'native' => 'Кыргызча', 'regional' => 'kgz_KG'],
         //'sr'          => ['name' => 'Serbian (Cyrillic)',     'script' => 'Cyrl', 'native' => 'Српски', 'regional' => 'sr_RS'],
         //'av'          => ['name' => 'Avaric',                 'script' => 'Cyrl', 'native' => 'авар мацӀ', 'regional' => ''],
         //'ady'         => ['name' => 'Adyghe',                 'script' => 'Cyrl', 'native' => 'адыгэбзэ', 'regional' => ''],
@@ -229,7 +227,7 @@ return [
         //'uk'          => ['name' => 'Ukrainian',              'script' => 'Cyrl', 'native' => 'українська', 'regional' => 'uk_UA'],
         //'cv'          => ['name' => 'Chuvash',                'script' => 'Cyrl', 'native' => 'чӑваш чӗлхи', 'regional' => 'cv_RU'],
         //'cu'          => ['name' => 'Church Slavic',          'script' => 'Cyrl', 'native' => 'ѩзыкъ словѣньскъ', 'regional' => ''],
-        //'kk'          => ['name' => 'Kazakh',                 'script' => 'Cyrl', 'native' => 'қазақ тілі', 'regional' => 'kk_KZ'],
+        //'kz'          => ['name' => 'Kazakhstan',                 'script' => 'Cyrl', 'native' => 'қазақ тілі', 'regional' => 'kz_KZ'],
         //'hy'          => ['name' => 'Armenian',               'script' => 'Armn', 'native' => 'Հայերէն', 'regional' => 'hy_AM'],
         //'yi'          => ['name' => 'Yiddish',                'script' => 'Hebr', 'native' => 'ייִדיש', 'regional' => 'yi_US'],
         //'he'          => ['name' => 'Hebrew',                 'script' => 'Hebr', 'native' => 'עברית', 'regional' => 'he_IL'],
@@ -296,11 +294,9 @@ return [
         //'jv-Java'     => ['name' => 'Javanese (Javanese)',    'script' => 'Java', 'native' => 'ꦧꦱꦗꦮ', 'regional' => ''],
         //'ko'          => ['name' => 'Korean',                 'script' => 'Hang', 'native' => '한국어', 'regional' => 'ko_KR'],
     ],
-
     // Negotiate for the user locale using the Accept-Language header if it's not defined in the URL?
     // If false, system will take app.php locale attribute
     'useAcceptLanguageHeader' => true,
-
     // If LaravelLocalizationRedirectFilter is active and hideDefaultLocaleInURL
     // is true, the url would not have the default application language
     //
@@ -308,10 +304,8 @@ return [
     // Because of this language negotiation using the Accept-Language header will NEVER occur when hideDefaultLocaleInURL is true.
     //
     'hideDefaultLocaleInURL' => false,
-
     // If you want to display the locales in particular order in the language selector you should write the order here. 
     //CAUTION: Please consider using the appropriate locale code otherwise it will not work
     //Example: 'localesOrder' => ['es','en'],
     'localesOrder' => [],
-
 ];
